@@ -25,7 +25,7 @@ public class UserTestCase {
 		userDAO = (UserDAO) context.getBean("userDAO");
 	}
 	
-/*
+
 	@Test
 	public void testAddUser() {
 		
@@ -77,10 +77,10 @@ public class UserTestCase {
 		
 	}
 	
-	*/
+	
 
 	// working for uni-directional
-/*
+
 	@Test
 	public void testAddAddress() {
 		user = userDAO.get(1);
@@ -107,7 +107,7 @@ public class UserTestCase {
 		assertEquals("Failed to update the cart!", true, userDAO.updateCart(cart));			
 	} 
 
-*/
+
 	
 
 	
